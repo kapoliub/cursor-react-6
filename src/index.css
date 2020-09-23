@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.post{
+  background-color: #343946;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.user-logo-block img{
+  width: 50px;
+  height: 50px;
+  left: 15px;
+  position: absolute;
+}
+
+.content-img-block img{
+  max-width: 600px;
+}
+
+.user-logo-block img, .content-img-block img{
+  border-radius: 30px;
+}
+
+.user-logo-block, .post-info-block, .text-block, .content-img-block, .actions-block, .post-info, .post-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.post-info-block{
+  color: white;
+  flex-direction: column;
+  padding-left: 60px;
+}
+
+.text-block{
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.text-block span{
+  color: rgb(163, 163, 163);
+  font-size: 0.95em;
+}
+
+.post-info{
+  align-items: center;
+  height: auto;
+}
+.post-info h4{
+  margin: 0;
+}
+
+.post-content p{
+  margin: 0;
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+
+.post-info img{
+  margin: 0 5px;
+}
+
+.text-block, .actions-block, .content-img-block, .post-info-block{
+  width: fit-content;
+}
+
+.arrow-icon{
+  position: absolute;
+  right: 10px;
+}
+
+.actions-block{
+  margin-top: 15px;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.action{
+  width: 25%;
+  color: rgb(163, 163, 163);
+  cursor: pointer;
+}
+
+.action img{
+  float: left;
+  margin-right: 5px;
+}
+
+.posts-page input, .posts-page select, .posts-page button{
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 15px;
+  height: 40px;
+}
+
